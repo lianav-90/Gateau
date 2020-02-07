@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+*::selection {
+    background-color: #0078D7;
+}
+nav {
+    background-color: #F093BF;
+    padding: 0;
+}
+a.nav-link, a.dropdown-item {
+    letter-spacing: 2px;
+    color: white !important;
+}
+a.nav-link:hover, a.dropdown-item:hover {
+    color: black !important;
+}
+a.navbar-brand {
+    font-size: 40px;
+}
+li.dropmenu:hover div.dropdown-menu {
+    display: block !important;
+}
+div.dropdown-menu {
+    background-color: black;
+    width: 205px;
+    margin: 0;
+    margin-left: -22px;
+    border-radius: 5px;
+}
+header {
+    background-image: url("images/b1.jpg");
+    background-size: 100%;
+}
+header img {
+    width: 220px;
+}
+div.text {
+    width: 34%;
+}
+div.empty {
+    width: 21.9%;
+}
+p.vertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 65px;
+    display: inline-block;
+    margin: 0;
+    letter-spacing: -30px;
+    margin-left: -25px;
+    vertical-align: bottom;
+    margin-top: 50px;
+} 
+p.white {
+    color: white;
+    font-size: 35px;
+}
+div.container-fluid i, div.overlay i, div.col-lg-2 i {
+    color: #F093BF;
+    font-size: 30px;
+}
+div.col-lg-3 h3, div.overlay h3, div.col-lg-2 h3, h3.pt-4, h3.pt-1 {
+    color: #52DCFF;
+    letter-spacing: 1px;
+}
+button.p-2 {
+    border: none;
+    background-color: #F093BF;
+    color: white;
+}
+button.my-2:hover {
+    opacity: 0.9;
+}
+div.rotate h1 {
+    font-size: 65px;
+    letter-spacing: 3px;
+}
+div.rotate h3 {
+    color: #E8B20E;
+    letter-spacing: 2px;
+}
+div.rotate {
+    transform: rotate(-90deg);
+    padding: 30px 0 0 50px;
+}
+section, article {
+    background-color: #F3F3F3;
+}
+div.overlay {
+    position: relative;
+    bottom: 150px;
+    left: 160px;
+    width: 81%;
+}
+div.service {
+    padding-left: 112px;
+    padding-top: 150px;
+}
+div.col-lg-9 {
+    margin-top: 85px;
+}
+div.shadow {
+    border-bottom: 2px solid #F093BF;
+    background-color: #EFEFEF;
+}
+h2.p-3 {
+    color: white;
+}
+div.order {
+    background-image: url("images/b3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+div.p-5 h3 {
+    color: #F093BF;
+}
+div.p-5 p, div.pink p {
+    color: white;
+}
+span {
+    color: black;
+    font-size: 15px;
+}
+div.pink {
+    background-color: #F093BF;
+    padding: 70px 0;
+    
+}
+div.pink button {
+    color: white;
+    background-color: black;
+    border: none;  
+}
+div.pink button:hover {
+    opacity: 0.9;
+}
+div.pink p {
+    font-size: 20px;
+}
+div.service2 {
+    padding-bottom: 130px;
+}
+img.under {
+    width: 350px;
+    position: absolute;
+}
+img.on {
+    width: 200px;
+    position: relative;
+    top: 80px;
+    left: 125px;
+}
+img.mr-4 {
+    width: 250px;
+    vertical-align: top;
+}
+img.mb-4 {
+    border-radius: 50%;
+}
+aside {
+    background-color: #272727;
+    padding: 70px 0;
+}
+aside a, aside p {
+    color: #B9B7B7;
+    font-size: 14px;
+}
+i.fb {
+    color: white;
+    background-color: #0078D7;
+    border-radius: 50%;
+    padding: 12px 15px;
+    font-size: 13px;
+}
+i.twitter {
+    color: white;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 13px;
+}
+i.rss {
+    color: white;
+    background-color: #F26522;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 13px;
+}
+div.links a {
+    display: block;
+}
+a.gateau {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a.gateau:hover {
+    text-decoration: none;
+}
+div.links a {
+    line-height: 40px;
+}
+div.links a:hover {
+    text-decoration: none; 
+    color: #B9B7B7;
+    opacity: 0.8;
+}
+div.twitter a:hover {
+    text-decoration: none;
+    color: #B9B7B7;
+}
+p.pt-2{
+    color: #F093BF;
+    font-style: italic;
+}
+input[type="submit"] {
+    width: 65%;
+    background-color: #F093BF;
+    color: white;
+    border: none;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+footer p {
+    color: white;
+    letter-spacing: 1px;
+}
+footer a {
+    color: #4692A0;
+}
+footer {
+    background-color: black;
+}
+footer a:hover {
+    color: #4692A0;
+    text-decoration: none;
+}
+@media all and (max-width: 992px) {
+    div.rotate {
+        transform: rotate(0);
+    }
+    img.img1 {
+        margin-left: 66px;
+        margin-bottom: 25px;
+    }
+    img.img2 {
+        margin-left: 251px;
+        margin-top: -105px;
+    }
+}
